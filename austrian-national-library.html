@@ -1,0 +1,166 @@
+<!-- 
+- at least four different .html pages
+- link from any page on your website to any other page by following one or more hyperlinks
+- at least one list (ordered or unordered)
+- === at least one table
+- at least one image
+- === at least one stylesheet file:
+    * === at least five different CSS properties
+    * === at least five different types of CSS selectors(1x #id, 1x .class)
+    * === at least one mobile-responsive @media query (styling changes for smaller screens)
+    * === use Bootstrap 4 with at least one Bootstrap component
+    * at least two Bootstrap columns
+    * === at least one SCSS variable
+    * === at least one example of SCSS nesting
+    * at least one use of SCSS inheritance
+- in README.md, include a short writeup describing your project:
+    * what’s contained in each file
+    * (optionally) any other additional information the staff should know about your project
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Awesome libraries - Austrian National Library</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a id="brand" class="navbar-brand" href="/">Awesome libraries</a>
+
+      <div class="dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Libraries
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="george-peabody-library.html">
+            George Peabody Library
+            <small>&nbsp;Baltimore, US</small>
+          </a>
+          <a class="dropdown-item" href="library-of-congress.html">
+            Library of Congress
+            <small>&nbsp;Washington DC, US</small>
+          </a>
+          <a class="dropdown-item" href="library-of-trinity-college.html">
+            Library of Trinity College
+            <small>&nbsp;Dublin, Ireland</small>
+          </a>
+          <a class="dropdown-item" href="jacob-and-wilhelm-grimm-center.html">
+            Jacob and Wilhelm Grimm Center
+            <small>&nbsp;Berlin, Germany</small>
+          </a>
+          <a class="dropdown-item" href="stuttgart-public-library.html">
+            Stuttgart Public Library
+            <small>&nbsp;Stuttgart, Germany</small>
+          </a>
+          <a class="dropdown-item" href="royal-portuguese-cabinet-of-reading.html">
+            Royal Portuguese Cabinet of Reading
+            <small>&nbsp;Rio de Janeiro, Brazil</small>
+          </a>
+          <a class="dropdown-item" href="austrian-national-library.html">
+            Austrian National Library
+            <small>&nbsp;Vienna, Austria</small>
+          </a>
+          <a class="dropdown-item" href="admont-library.html">
+            Admont Library
+            <small>&nbsp;Admont, Austria</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Austrian National Library</h1>
+
+        <div class="row photo">
+          <div class="col">
+            <figure class="figure">
+              <img class="img-fluid" src="images/austrian-national-library.jpg"
+                alt="Photo of the Austrian National Library" />
+              <figcaption class="figure-caption">
+                Author :
+                <a target="_blank" rel="noopener, noreferrer"
+                  href="https://commons.wikimedia.org/wiki/File:State_Hall_of_the_Austrian_National_Library_NightFall404_4.jpg">
+                  Richard Hopkins
+                </a>
+                - Licence :
+                <a target="_blank" rel="noopener, noreferrer"
+                  href="https://creativecommons.org/licenses/by/2.0/deed.en">
+                  Attribution 2.0 Generic
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="infos">
+              <li><span>City :</span> Vienna</li>
+              <li><span>Country :</span> AUSTRIA</li>
+              <li><span>Opening year :</span> 1368</li>
+              <li>
+                <span>More info :</span>
+                <a target="_blank" rel="noopener, noreferrer"
+                  href="https://en.wikipedia.org/wiki/Austrian_National_Library">
+                  Wikipedia page
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 map">
+            <div>
+              <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
+                marginwidth="0"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=16.36325061321259%2C48.20459447383899%2C16.366791129112247%2C48.20619794303243&amp;layer=mapnik&amp;marker=48.20539621471056%2C16.365020871162415"
+                style="border: 1px solid black"></iframe>
+              <br />
+              <small>
+                <a
+                  href="https://www.openstreetmap.org/?mlat=48.20540&amp;mlon=16.36502#map=19/48.20540/16.36502">
+                  Afficher une carte plus grande
+                </a>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <a target="_blank" rel="noopener, noreferrer"
+      href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript">
+      CS50's Web Programming with Python and JavaScript
+    </a>
+    - Project 0
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
